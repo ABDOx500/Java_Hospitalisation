@@ -17,8 +17,5 @@ public class PatientService {
         return patients;
     }
 
-    // Find patient by ID
-    public Patient findPatientById(int id) {
-        return patients.stream().filter(p -> p.getId() == id).findFirst().orElse(null);
-    }
+
 }
